@@ -26,3 +26,4 @@ test -x $filename && perm="$perm exe"
 #4，开始输出信息
 echo  "The filename: $filename is a $filetype"
 echo  "and the permissions are :$perm"
+echo $0,$1,$2
